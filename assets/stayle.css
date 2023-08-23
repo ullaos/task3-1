@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* nav */
+
+.nav li{
+    list-style: none;
+    color: white;
+}
+a{
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+.nav{
+    background-color: black;
+    width: 100vw;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: fixed;
+    z-index: 2;
+}
+.n1, .n2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.n1{
+    padding-left: 50px;
+}
+
+nav a{ 
+    margin: 0 20px;
+}
+
+
+
+/* hero section */
+.hero{
+    background-image: url(./imag/6-Why-Create-Online-Courses-Top-10-Unexpected-Reasons.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero h1{
+    font-size: 4rem;
+    color: aliceblue;
+    text-align: center;
+    
+}
+
+main h1{
+    font-size: 4rem;
+}
+/* aboutus section */
+.aboutus{
+    /* height: max-content; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+.aboutus h1{
+    padding-bottom: 30px;
+}
+.aboutus p{
+    font-size: 1.5rem;
+    width: 80%;
+    margin: auto;
+}
+/* the container */
+#container{
+    height: max-content;
+    max-width: 100vw;
+    background-color: rgb(252, 212, 190);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    
+}  
+
+#container1{
+    height: max-content;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+#container h1, #container1 h1, #container2 h1{
+    padding-bottom: 40px;
+}
+/* ouer service, sepcialization  */
+.parent{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+.card{
+    width: 200px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 10px 10px;       
+}
+.card1{
+    width: 300px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+#container1 .spe{
+    font-size: 3rem;
+}
+/* our teacher */
+
+
+#container .parent img{
+    width: 170px;
+}
+#container .parent .card1 img{
+    padding-bottom: 20px;
+}
+h2{
+    padding-bottom: 10px;
+}
+
+/* plan */
+#container2{
+    height: max-content;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.par{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card2{
+    height: 300px;
+    width: 200px;
+    background-color: rgb(245, 222, 179);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    transition: 1s all;
+}
+.card2 img{
+    width: 150px;
+}
+.price{
+    width: 150px;
+    border: 1px solid black;
+    padding: 5px;
+}
+.pla{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card2:hover{
+    width: 280px;
+    height: 380;
+}
+/* contact us */
+#container .contactus .in{
+    text-align:start ;
+}
+.in{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.contactus{
+    display: flex;
+    padding: 10px;
+
+}
+/* contact info */
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.info h1{
+    font-size: 3rem;
+    padding-top: 10px;
+}
+/* footer */
+.end{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: gray;
+    padding: 10px;
+}
+#end{
+    padding-bottom: 20px;
+
+
+}
+.end li{
+    list-style: none;
+    color: white;
+}
+
+p{
+    width: fit-content;
+    font-size: 1.25rem;
+}
+@media screen and (max-width=992px) {
+    html{
+        font-size: 9px;
+    }
+
+
+    #container .parent .card1, #container1 .parent .card1, #container2 .par .card2{
+        width: 500px;
+    }
+    
+}
+
+
